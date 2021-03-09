@@ -1,0 +1,215 @@
+body,
+html {
+  height: 100%;
+  background-color: #f2f1ef;
+}
+.userContainer {
+  height: 100%;
+  margin-top: 5%;
+}
+.userHeader {
+  height: 15%;
+  text-align: center;
+  margin-top: 50px;
+}
+.userHeader div {
+  width: 100%;
+}
+.userHeader p,
+.userBottom p {
+  color: #f2f1ef;
+  border: 1px solid #697184;
+  background-color: #697184;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.userHeader p {
+  padding: 5px;
+}
+.userMiddle {
+  height: 70%;
+}
+.userMiddle p {
+  display: inline-block;
+  text-align: center;
+  color: #413f3d;
+  border: 1px solid #b1a6a4;
+  background-color: #b1a6a4;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70%;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+.userMiddle {
+  padding-top: 10px;
+}
+.flexPosition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.userMiddle ul {
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  padding-inline-start: 0;
+}
+.userMiddle ul li button {
+  border: 2px solid #d8cfd0;
+  color: #413f3d;
+  border-radius: 5px;
+  margin: 2px 0;
+  width: 70%;
+}
+.userBottom {
+  height: 15%;
+}
+.userBottom .user p {
+  padding: 5px;
+  float: left;
+  min-width: 90%;
+  text-align: center;
+}
+.userBottom .date p {
+  padding: 5px;
+  float: right;
+  min-width: 90%;
+  text-align: center;
+}
+@media only screen and (max-width: 760px) {
+  .editTimeSheetTable {
+    border-collapse: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 10px;
+  }
+  .editTimeSheetTable td,
+  .editTimeSheetTable tr {
+    display: block;
+    width: 100%;
+  }
+
+
+  .editTimeSheetTable thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .editTimeSheetTable tr {
+    border: 1px solid #b1a6a4;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #b1a6a4;
+  }
+
+  .editTimeSheetTable tr + tr {
+    margin-top: 1.5em;
+  }
+
+  .editTimeSheetTable td {
+    border: none;
+    border-bottom: 1px solid #b1a6a4;
+    position: relative;
+    padding-left: 50%;
+
+    text-align: left;
+  }
+  .editTimeSheetTable td:nth-child(even) {
+    background-color: #d8cfd0;
+  }
+
+  .editTimeSheetTable td:before {
+    content: attr(data-label);
+    font-weight: 600;
+    font-variant: small-caps;
+    display: inline-block;
+    line-height: 1.5;
+    margin-left: -100%;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    background-color: #d8cfd0;
+    padding-left: 5px;
+  }
+  .editTimeSheetTable td input {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: transparent;
+  }
+  .editTSEditBttn,
+  .approveTSBttn {
+    display: block;
+    border: 2px solid #b1a6a4;
+    background-color: #b1a6a4;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: #413f3d;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 1px 30px;
+  }
+  .approveTSBttn {
+    width: 80%;
+    max-height: 50px;
+    padding: 5px 30px;
+    margin: 50px auto;
+  }
+  #mimic {
+    height: 50px !important;
+  }
+  #mimic::before {
+    background-color: transparent;
+  }
+  #editRowtitle {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-variant: small-caps;
+    padding: 10px 0;
+  }
+  .timeSheetHeight {
+    height: 60%;
+  }
+  .userHeader {
+    margin-top: 50px;
+  }
+  .UserTimeSheet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .UserTimeSheetForm {
+    display: inline-block;
+    text-align: center;
+  }
+  .UserTimeSheetForm label {
+    border: 2px solid #b1a6a4;
+    background-color: #b1a6a4;
+    color: #413f3d;
+    border-radius: 5px;
+    font-weight: 600;
+    font-variant: small-caps;
+    padding: 0 7px;
+    margin: 0 10px 10px 0;
+  }
+  .UserTimeSheetForm select {
+    border: 2px solid #d8cfd0;
+    color: #413f3d;
+    border-radius: 5px;
+    background-color: #f2f1ef;
+    font-style: oblique;
+  }
+  #year {
+    margin-right: 10px;
+  }
+}

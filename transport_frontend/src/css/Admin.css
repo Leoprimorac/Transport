@@ -1,0 +1,281 @@
+body,
+html {
+  height: 100%;
+  background-color: #f2f1ef;
+}
+
+.header div {
+  margin-top: 7%;
+  width: 100%;
+}
+.header p,
+.bottom p {
+  color: #f2f1ef;
+  border: 1px solid #697184;
+  background-color: #697184;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+.header p {
+  padding: 5px;
+  float: right;
+}
+.middle {
+  margin-top: 5%;
+}
+.middle p {
+  display: inline-block;
+}
+.middle p,
+.create,
+.approve,
+.editUserBttn,
+.timeSheetButtons button,
+.bttnStyle {
+  text-align: center;
+  color: #413f3d;
+  border: 1px solid #b1a6a4;
+  background-color: #b1a6a4;
+  padding: 5px;
+  border-radius: 5px;
+  width: 50%;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+.middle {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.middle ul {
+  padding: 0 !important;
+  list-style: none;
+}
+.middle ul li button {
+  border: 2px solid #d8cfd0;
+  color: #413f3d;
+  border-radius: 5px;
+  margin: 2px 0;
+  width: 50%;
+}
+.createUserForm {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40%;
+}
+.createUserForm input,
+.createUserForm select,
+.editForm select,
+.middle div input {
+  width: 100%;
+  border: 2px solid #d8cfd0;
+  color: #413f3d;
+  border-radius: 5px;
+  background-color: #f2f1ef;
+  font-style: oblique;
+  text-align: center;
+}
+.TimeSheetForm select,
+.TimeSheetFormUser select {
+  border: 2px solid #d8cfd0;
+  color: #413f3d;
+  border-radius: 5px;
+  background-color: #f2f1ef;
+  font-style: oblique;
+}
+.TimeSheetForm label,
+.TimeSheetFormUser label{
+  border: 2px solid #b1a6a4;
+  background-color: #b1a6a4;
+  color: #413f3d;
+  border-radius: 5px;
+  font-weight: 600;
+  font-variant: small-caps;
+  padding: 0 7px;
+  margin: 0 10px 40px 10px;
+}
+
+
+.exportTSSelectors {
+  border: 2px solid #b1a6a4;
+  border-radius: 5px;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+
+}
+.exportTSSelectors div{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-content: space-around;
+
+}
+.exportTSSelectors div button,
+.exportTSSelectors div p
+{
+  margin: 0 auto;
+}
+.exportTSSelectors label{
+  border: 2px solid #b1a6a4;
+  background-color: #b1a6a4;
+  color: #413f3d;
+  border-radius: 5px;
+  font-weight: 600;
+  font-variant: small-caps;
+  width: 40%;
+  margin-right: 5%;
+  text-align: center;
+}
+.exportTSSelectors select {
+  border: 2px solid #d8cfd0;
+  color: #413f3d;
+  border-radius: 5px;
+  background-color: #f2f1ef;
+  font-style: oblique;
+  width: 55%;
+  
+}
+.ExportTableOverflow{
+  overflow-y:scroll;
+  position:relative;
+  height:120px;
+  width:70%;
+  border: 2px solid #d8cfd0;
+  border-radius: 5px;
+}
+
+.exportbttn{
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 5px 10px;
+}
+
+.cancelBttn{
+  width: 100%;
+  padding:0 5px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.TimeSheetForm.leftDropdown {
+  float: right;
+  margin-right: 10px;
+}
+.TimeSheetFormUser {
+  float: left;
+}
+
+.timeSheetButtons {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.timeSheetButtons button {
+  width: auto;
+  margin: 0 10px;
+}
+.TimeSheetsTable td {
+  position: relative;
+}
+.TimeSheetsTable input {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.createUserForm label,
+.middle div label {
+  margin-top: 10px;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+.bottom {
+  margin-top: 5%;
+}
+.bottom .user p {
+  padding: 5px;
+  float: left;
+}
+.bottom .date p {
+  padding: 5px;
+  float: right;
+}
+.create {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 25px;
+}
+.editUserBttn {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 25px;
+  width: 20%;
+}
+.approve {
+  margin-top: 85px;
+  width: 20%;
+}
+.TableOverflow{
+  overflow-x:auto;
+  height:300px;
+  border: 1px solid #b1a6a4;
+  border-radius: 5px;
+}
+.auditFile{
+  border: 1px solid #b1a6a4;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #b1a6a4;
+  margin-top: 5% !important;
+  height: 370px !important;
+  overflow-y:auto !important;
+}
+
+.TimeSheetsTable,
+.manageTable {
+  width: 100%;
+  margin: 0 auto;
+}
+.TimeSheetsTable td,
+th,
+.manageTable td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+.TimeSheetsTable tr:nth-child(even),
+.manageTable tr:nth-child(even) {
+  background-color: #d8cfd0;
+}
+.editBttn,
+.deleteBttn {
+  background-color: #b1a6a4;
+  border: 1px solid #b1a6a4;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.manageTable input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: transparent;
+  width: 100%;
+}
+
+.no-outline:focus {
+  outline: none;
+}

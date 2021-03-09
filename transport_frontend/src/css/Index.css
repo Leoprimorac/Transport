@@ -1,0 +1,138 @@
+body,
+html {
+  height: 100%;
+}
+.containerIndex {
+  height: 100%;
+}
+.rowIndex {
+  height: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    margin-top: 0 !important;
+  }
+  .rowIndex {
+    height: 100%;
+  }
+  .loginForm {
+    height: 100%;
+  }
+
+  .form {
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    height: 100%;
+  }
+
+  .form form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin-top: 10px;
+  }
+  .form form input {
+    width: 80%;
+    background-color: #d8cfd0;
+    border: 2px solid #b1a6a4;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .form form button {
+    background-color: #b1a6a4;
+    border: 1px solid #b1a6a4;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px 50px;
+  }
+  p,
+  form label,
+  form button {
+    font-weight: 600;
+    font-variant: small-caps;
+  }
+  form label {
+    padding-bottom: 5px;
+  }
+  form input {
+    margin-bottom: 15px;
+  }
+
+  #title {
+    font-size: 20px;
+    padding-top: 20% !important;
+    width: 100% !important;
+  }
+  #subtitle {
+    padding-top: 0%;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  #title {
+    font-size: 20px;
+    padding-top: 0% !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .loginForm {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form {
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid #b1a6a4;
+    border-radius: 5px;
+    height: 500px;
+    width: 70%;
+  }
+  .form form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin-top: 10px;
+  }
+  .form form input {
+    width: 50%;
+    background-color: #d8cfd0;
+    border: 2px solid #b1a6a4;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .form form button {
+    background-color: #b1a6a4;
+    border: 1px solid #b1a6a4;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px 50px;
+  }
+
+  p,
+  form label,
+  form button {
+    font-weight: 600;
+    font-variant: small-caps;
+  }
+  form label {
+    font-size: 16px;
+  }
+  #title {
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  #subtitle {
+    font-size: 25px;
+  }
+}
